@@ -8,7 +8,6 @@ const HomeStack = () => {
     <Navigator
       screenOptions={{
         headerShown: false,
-        animation: 'ios',
       }}>
       <Screen name="Home" component={Home} />
     </Navigator>
