@@ -6,12 +6,9 @@ import {Text, View} from 'react-native';
 
 const App = () => {
   return (
-    // <StartOperationProvider>
-    <Router />
-    // </StartOperationProvider>
-    // <View>
-    //   <Text>serdar</Text>
-    // </View>
+    <StartOperationProvider>
+      <Router />
+    </StartOperationProvider>
   );
 };
 
